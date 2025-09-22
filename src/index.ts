@@ -1,5 +1,4 @@
-/// <reference types="@workadventure/iframe-api-typings" />
-
+/// <reference path="../node_modules/@workadventure/iframe-api-typings/iframe_api.d.ts" />
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
@@ -10,7 +9,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     // Show configuration tile for editors only
-    if (WA.player.tags.includes('editor')) {
+    if (WA.player.tags.includes('admin')) {
         WA.room.showLayer('exitNorthConfig')
         WA.room.showLayer('exitSouthConfig')
         WA.room.showLayer('exitWestConfig')
@@ -21,7 +20,4 @@ WA.onInit().then(() => {
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
-
 }).catch(e => console.error(e));
-
-export {};
