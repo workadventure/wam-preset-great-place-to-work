@@ -2396,7 +2396,7 @@
          "name":"HarmonyStudioClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -2602,7 +2602,7 @@
          "name":"DangyPotsClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -2808,7 +2808,7 @@
          "name":"TheBatcaveClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -3014,7 +3014,7 @@
          "name":"MerrilWillowClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -3220,7 +3220,7 @@
          "name":"OptionsChamberClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -3426,7 +3426,7 @@
          "name":"NoDiggityDoorClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -3632,7 +3632,7 @@
          "name":"GreenoflexDoorClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -3838,7 +3838,7 @@
          "name":"LeadersThinkDoorClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -4044,7 +4044,7 @@
          "name":"FacilitatedLearningDoorClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -4250,7 +4250,7 @@
          "name":"VibratoValleyDoorClosed",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":79,
          "x":0,
          "y":0
@@ -4990,387 +4990,7 @@
          "draworder":"topdown",
          "id":2,
          "name":"floorLayer",
-         "objects":[
-                {
-                 "height":0,
-                 "id":23,
-                 "name":"NoDiggityDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"NoDiggityDoorClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"NoDiggityDoorOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":99,
-                 "y":843
-                }, 
-                {
-                 "height":0,
-                 "id":24,
-                 "name":"GreenoflexDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"GreenoflexDoorClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"GreenoflexDoorOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":485,
-                 "y":843
-                }, 
-                {
-                 "height":0,
-                 "id":25,
-                 "name":"LeadersThinkDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"LeadersThinkDoorClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"LeadersThinkDoorOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":766,
-                 "y":843
-                }, 
-                {
-                 "height":0,
-                 "id":26,
-                 "name":"FacilitatedLearningDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"FacilitatedLearningDoorClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"FacilitatedLearningDoorOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":1053,
-                 "y":849
-                }, 
-                {
-                 "height":0,
-                 "id":27,
-                 "name":"VibratoValleyDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"VibratoValleyDoorClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"VibratoValleyDoorOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":1340,
-                 "y":849
-                }, 
-                {
-                 "height":0,
-                 "id":28,
-                 "name":"HarmonyStudioDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"HarmonyStudioClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"HarmonyStudioOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":287,
-                 "y":434
-                }, 
-                {
-                 "height":0,
-                 "id":29,
-                 "name":"DangyPotsDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"DangyPotsClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"DangyPotsOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":577,
-                 "y":431
-                }, 
-                {
-                 "height":0,
-                 "id":30,
-                 "name":"TheBatcaveDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"TheBatcaveClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"TheBatcaveOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":868,
-                 "y":429
-                }, 
-                {
-                 "height":0,
-                 "id":31,
-                 "name":"MerrilWillowDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"MerrilWillowClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":false
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"MerrilWillowOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":1152,
-                 "y":434
-                }, 
-                {
-                 "height":0,
-                 "id":32,
-                 "name":"OptionsChamberDoorStep",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"closeLayer",
-                         "type":"string",
-                         "value":"OptionsChamberClosed"
-                        }, 
-                        {
-                         "name":"default",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"door",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"openLayer",
-                         "type":"string",
-                         "value":"OptionsChamberOpened"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":1439,
-                 "y":428
-                }],
+         "objects":[],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
